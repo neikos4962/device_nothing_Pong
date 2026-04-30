@@ -336,6 +336,7 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
 # Glyph
+PRODUCT_SOONG_NAMESPACES += packages/apps/ParanoidGlyph
 PRODUCT_PACKAGES += \
     ParanoidGlyphPhone2 \
     GlyphAdapter
